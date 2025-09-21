@@ -1,11 +1,3 @@
-# === project.py ===
-# cs50 final project (Starter) : Space Explorer Toolkit
-# Starter goals:
-#   - Keep structure ready, leave core logic as TODOs.
-#   - ≥3 helper functions + main().
-#   - No external libraries in code (pytest only for tests).
-#   - Pytest tests in test_project.py will FAIL until TODOs are completed.
-
 from math import sqrt
 from typing import Tuple, Dict
 
