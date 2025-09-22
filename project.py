@@ -4,8 +4,6 @@ from typing import Tuple, Dict
 #Gravitational constant for escape velocity (m^3 kg^-1 s^-2)
 G = 6.67430e-11
 
-# Minimal starter dataset. You can add more planets later.
-# g_ratio is relative to Earth (1.0).
 PLANETS: Dict[str, Dict[str, float]] = {
     "Mercury": {"g_ratio": 0.38, "mass": 3.3011e23, "radius_m": 2439.7e3,
 "day_hours": 1407.5, "year_days": 87.97},
