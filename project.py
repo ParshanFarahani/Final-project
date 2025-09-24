@@ -76,9 +76,10 @@ def _prompt_planet() -> str:
 
 
 def main() -> None:
-    print("=== Space Explorer Toolkit (Starter) ===")
-    print("This is starter code. Implement the TODOs to make tests pass.")
-    print("Menu:")
+
+    print("=== Welcome to the Space Explorer Toolkit🚀 ===")
+    print("Embark on a journey through Space! Calculate, explore, and learn fascinating facts about planets.")
+    print("Menu:")    
     print("  1) bmi")
     print("  2) weight")
     print("  3) escape")
@@ -116,7 +117,6 @@ def main() -> None:
             print("Unknown choice.")
     except Exception as e:
 
-        #Keep beginner-friendly behavior while TODOs are incomplete
         print(e)
 
 
